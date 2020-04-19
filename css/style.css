@@ -1,0 +1,280 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(255, 255, 255);
+}
+
+
+header{
+    position: relative;
+    background-color: rgb(65, 241, 233);
+    background: linear-gradient(to left, rgba(33, 216, 207, 0.7), rgba(11, 192, 87, 0.9));
+    height: 350px;
+}
+
+
+.quangcao-top{
+    width: 100%; 
+    z-index: -10;
+}
+
+.menu{
+    height: 30px;
+    background-color:rgb(237, 241, 237);
+    position: relative;
+    overflow: hidden;
+}
+
+.menu-row{
+    width: 80%;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.menu-row-col{
+    text-align: center;
+}
+
+.menu-row-col a{
+    color: rgb(88, 88, 88);
+    font-size: 12px;
+}
+
+.menu-row-col a:hover,.menu-row-col a:active{
+    text-decoration: none;
+    color: rgb(219, 219, 109);
+}
+
+
+.navbar-top{
+    padding-top: 15px;
+    margin-top: 20px;
+    width: 80%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,50%);
+}
+
+.seabar{
+    position: absolute;
+    left: -15%;
+}
+
+
+.navbar-icon-sm{
+    font-size: 20px;
+    display: inline;
+
+
+}
+
+.icon-text{
+    width: 70%;
+    font-size: 10px;
+    float: right;
+}
+
+.navbar-icon-md{
+    font-size: 20px;
+}
+
+.icon-cart{
+    border: 3px solid white;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: rgb(137, 187, 37);
+}
+
+.fa-shopping-cart-text{
+    display: inline-block;
+    margin-left: 10px;
+    font-size: 15px;
+}
+
+.navbar-bottom{
+    position: absolute;
+    margin-top: 110px;
+    font-size: 11px;
+}
+
+.navbar-bottom i{
+    display: inline-block;
+    margin: 0 5px;
+    font-size: 30px;
+    color: rgb(248, 248, 25);
+}
+
+.navbar-bottom a span{
+   position: absolute;
+   float: left;
+   top: 25%;
+}
+
+.navbar-bottom .col-md-2{
+    padding: 5px;
+    padding-left: 20px !important;
+}
+
+.navbar-bottom .col-md-2:hover,.navbar-bottom a:active{
+    background-color: rgba(213, 229, 194, 0.3);
+    border-radius: 2px;
+}
+
+
+/* ------------------------------------------------- */
+/* --------------------------common--------------------- */
+/* -------------------------------------------------------- */
+hr{
+    border: 10px solid black;
+}
+
+a:hover{
+    text-decoration: none !important;
+}
+
+/* -------------------------------------------------------------- */
+/* ----------------------------- FRODUCT-SECTION-------------------------------- */
+/* ------------------------------------------------------------------------ */
+
+.products
+{
+    background-color: rgb(243, 243, 243);
+    position: relative;
+    width: 100%;
+    height: 1000px;
+}
+
+
+.productbar{
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgb(224, 221, 221);
+    border-radius: 5px;
+    position: absolute;
+    left: 50%;
+    top: 50px;
+    transform: translateX(-50%);
+    height: 800px;
+    width: 80%;
+}
+
+.productbar .contain{
+    width: 100%;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-48.7%);
+}
+
+.share{
+    padding: 10px;
+    border: 1px solid rgba(224, 221, 221,0.5);
+    border-radius: 5px;
+}
+
+.share span{
+    color: black;
+    margin-right: 10px;
+}
+.share h2{
+    color: rgb(245, 142, 7);
+    font-size: 20px;
+}
+
+.row .category{
+    padding: 30px;
+    border: 1px solid rgb(245, 245, 245);
+}
+
+.productbar h3{
+    margin-top: 20px;
+    color: black;
+    font-weight: bold;
+    font-size: 15px;
+    margin-bottom: 20px;
+    
+}
+
+.productbar span{
+    font-size: 13px;
+    color: black;
+}
+
+.category div{
+    position: relative;
+    height: 50px;
+}
+
+.productbar label{
+    display: inline-block;
+    position: absolute;
+    top: 38%;
+    left: 10%;
+}
+
+input[type="checkbox"]{
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.col-md-9{
+    float: right;
+    background-color: rgb(248, 248, 248);
+}
+
+.status-product{
+    text-align: center;
+    height: 80px;
+}
+
+.status-product a{
+    margin-bottom: 2px;
+    font-weight: bold;
+    height: 100%;
+    display: block;
+    padding: 20px;
+    text-decoration: none;
+}
+
+.status-product a:hover{
+    border-bottom: 2px solid rgb(81, 224, 117);
+}
+
+
+/* ----products----- */
+
+.product .container{
+    cursor: pointer;
+}
+
+.product .container img{
+    width: 100%;
+}
+
+.product .container:hover{
+    box-shadow: 0px 0px 10px rgb(148, 148, 148);
+}
+
+.product *{
+    color: rgb(77, 77, 77);
+}
+
+/* -------------------------------------------------- FOOTER -------------------------------------- */
+/* ------------------------------------------------------------------------------------------------- */
+
+footer ul{
+    list-style: none;
+}
+
+footer p{
+    font-size: 13px;
+}
+
+footer img{
+    width: 100%;
+    border-radius: 10px;
+}
